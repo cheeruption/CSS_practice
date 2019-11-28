@@ -8,13 +8,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <style>
-      div{
-        font-size:48px;
-      }
-    
+    div{
+    display:inline-block;
+    font-size:50px;
+    border:1px solid black;
+    width: 80%;
+    height:80%;
+    margin: 15px;
+    text-align:center;
+    }
+    .block{
+    margin-top: 30%;
+    width:40%;
+    height: 40%;
+    }
+    .container{
+    position:relative;
+    }
     </style>
+    
   </head>
   <body>
-    <div>hello there</div>
+	<div class='container'>
+      <div class='block'>
+        <div>1
+        </div>
+        <div>2
+        </div>
+      </div>
+      <div class='block'>
+        <div>3
+        </div>
+        <div>4
+        </div>
+      </div>
+	</div>
   </body>
 </html>
